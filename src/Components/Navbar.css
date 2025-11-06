@@ -1,0 +1,118 @@
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.box{
+  margin: 20px;
+}
+
+.search-bar {
+  width: 500px !important;
+  height: 48px;
+  border-radius: 8px 0 0 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.search-btn {
+  background-color: purple !important;
+  border: none;
+  border-radius: 0 8px 8px 0;
+  height: 48px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-btn:hover {
+  opacity: 0.9;
+}
+
+.search-icon {
+  height: 22px;
+  width: 22px;
+}
+
+
+.desktop-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.icon-size {
+  height: 28px;
+  width: 28px;
+  object-fit: contain;
+}
+
+.sign-in-btn {
+  border: 2px solid purple;
+  color: purple;
+  border-radius: 8px;
+  padding: 8px 26px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.sign-in-btn:hover {
+  background-color: purple;
+  color: white;
+}
+
+.mobile-icons {
+  display: none;
+  align-items: center;
+  gap: 12px;
+}
+
+.mobile-search-btn {
+  background-color: transparent;
+  border: none;
+  height: 34px;
+  width: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-btn {
+  background: none;
+  border: none;
+  color: purple;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* ✅ Mobile Responsive (iPhone SE & similar screens) */
+@media (max-width: 576px) {
+  .box {
+    padding: 6px 14px;
+  }
+
+  .logo-size {
+    height: 34px;
+  }
+
+  .desktop-nav,
+  .search-form {
+    display: none !important;
+  }
+
+  .mobile-icons {
+  
+    display: flex;
+  }
+
+  .icon-size {
+
+    height: 22px;
+    width: 22px;
+  }
+
+  .menu-btn {
+    font-size: 1.3rem;
+  }
+}

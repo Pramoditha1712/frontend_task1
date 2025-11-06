@@ -1,0 +1,109 @@
+.testimonial-container {
+    background-color: #f8f6fa;
+    border-radius: 12px;
+    padding: 50px 80px;
+    max-width: 1200px;
+    margin:auto
+  }
+  
+  .testimonial-title {
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 25px;
+  }
+  
+  .quote-icon {
+    background-color: #8d6ccf;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    margin-right: 10px;
+  }
+  
+  .testimonial-text {
+    color: #6b6b6b;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 40px;
+  }
+  
+  /* Audio Player */
+  .audio-player {
+    background-color: #c8b6e2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    width: 80%;
+    margin-bottom: 40px;
+  }
+  
+  .play-btn {
+    border: none;
+    background-color: white;
+    color: #8d6ccf;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2rem;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  .progress-bar {
+    flex-grow: 1;
+    height: 6px;
+    background-color: #b59fd9;
+    border-radius: 10px;
+    position: relative;
+    margin-right: 10px;
+  }
+  
+  .progress {
+    height: 6px;
+    width: 20%;
+    background-color: #8d6ccf;
+    border-radius: 10px;
+  }
+  
+  .time {
+    color: #666;
+    font-size: 0.9rem;
+    margin-right: 10px;
+  }
+  
+  .user-audio-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+  
+
+  .testimonial-user {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .user-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+  
+  .user-name {
+    color: #6c3dc0;
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .user-role {
+    color: #00a4e4;
+    margin: 0;
+    font-size: 0.95rem;
+  }
+  
